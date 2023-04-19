@@ -5,11 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mail validator</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <label for="login">Email:</label>
-    <input type="mail" id="login" placeholder="Inserisci la tua email">
-    <button>Accedi</button>
+    <input type="mail" id="emailUtente" placeholder="Inserisci la tua email">
+    <button id="loginButton">Accedi</button>
+
+    <div class="hidden" id="messaggioOK">Benvenuto!</div>
+    <div class="hidden" id="messaggioKO">Impossibile accedere, è necessario prima effettuare la registrazione.</div>
+
     <script src="js/main.js"></script>
 </body>
 </html>
